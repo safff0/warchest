@@ -4,8 +4,6 @@ from pyglet import *
 resolutions = ((1280, 720), (1920, 1080), (3840, 2160), (2560, 1440))
 
 win = window.Window(1280, 720, resizable=True)
-win.set_minimum_size(1280, 720)
-win.set_maximum_size(3840, 2160)
 win.config.alpha_size = 8
 batch = graphics.Batch()
 
